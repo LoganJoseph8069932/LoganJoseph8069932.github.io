@@ -34,8 +34,6 @@ var init = function (window) {
 
               circles.push(circle);
         }
-       
-
         // TODO 3 / 7 : Call the drawCircle() function 
 drawCircle()
 
@@ -46,11 +44,12 @@ drawCircle()
 drawCircle()
 
 drawCircle()
-        
+for (var loopsCompleted = 0; loopsCompleted < 175; loopsCompleted++) {
+            drawCircle();
+        }
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
-        
         /* 
         This Function is called 60 times/second producing 60 frames/second.
         In each frame, for every circle, it should redraw that circle
